@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Styled from './styled'
 
-const Index = ({children, ...props}: Props) => {
+const Index = ({children, ...props}: IProps) => {
     return (
         <Styled.Header>
             {children}
@@ -11,7 +11,7 @@ const Index = ({children, ...props}: Props) => {
 
 
 
-interface Props {
+interface IProps {
     children: any
 }
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from "../../components/Header";
-import Logo from "../../assets/icons/logo.svg";
-import NavBar from "../../components/NavBar";
-import NavItem from "../../components/NavItem";
+import Logo from "../../../assets/icons/logo.svg";
+import NavBar from "../../ui/NavBar";
+import NavItem from "../NavItem";
+import Header from "../../ui/Header";
 
 const Index = () => {
     return (

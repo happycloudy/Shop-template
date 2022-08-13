@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {headerBigFont} from "../../core/theme/fonts";
+import {headerBigFont} from "../../../core/theme/fonts";
 
 export const NavItem = styled.span`
   background: transparent;

@@ -1,13 +1,11 @@
-import AppContainer from "./Containers/AppContainer";
-import HeaderContainer from "./Containers/HeaderContainer";
+import AppContainer from "./containers/AppContainer";
+import HeaderContainer from "./containers/HeaderContainer";
 
 function App() {
     return (
-        <div className="app">
-            <AppContainer>
-                <HeaderContainer/>
-            </AppContainer>
-        </div>
+        <AppContainer>
+            <HeaderContainer/>
+        </AppContainer>
     )
 }
 

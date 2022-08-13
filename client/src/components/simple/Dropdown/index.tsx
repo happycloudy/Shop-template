@@ -1,17 +1,17 @@
 import React from 'react';
 import * as Styled from './styled'
 
-const Index = ({children, ...props}: Props) => {
+const Index = ({children, ...props}: IProps) => {
     return (
-        <Styled.NavBar>
+        <Styled.Dropdown>
             {children}
-        </Styled.NavBar>
+        </Styled.Dropdown>
     );
 };
 
 
 
-interface Props {
+interface IProps {
     children: any
 }
 

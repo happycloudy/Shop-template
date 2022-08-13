@@ -5,8 +5,8 @@ export const normalFont = css`
   font-family: 'Proxima Nova',serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 20px;
+  line-height: 24px;
 `
 
 

@@ -4,6 +4,7 @@ import App from './App'
 import GlobalStyles from './core/theme/styles'
 import {ThemeProvider} from "styled-components";
 import {theme} from "./core/theme/theme";
+import './assets/fonts/fonts.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
