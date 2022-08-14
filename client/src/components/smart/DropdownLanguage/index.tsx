@@ -10,9 +10,10 @@ const Index = () => {
 
     const handleSelectLanguage = (value: string) => setLanguage(value)
 
+
     return (
         <Dropdown>
-            <DropdownItem onTrigger={toggleShow}>
+            <DropdownItem onTrigger={toggleShow} active={show}>
                 {language}
             </DropdownItem>
 
