@@ -1,14 +1,13 @@
-import React, {useState} from 'react';
-import Dropdown from "../Dropdown";
-import DropdownItem from "../DropdownItem";
+import React from 'react';
 import * as Styled from "./styled"
-import DropdownMenu from "../DropdownMenu";
 import DropdownLanguage from "../../smart/DropdownLanguage";
+import HeaderUser from "../HeaderUser";
 
 const Index = () => {
     return (
         <Styled.HeaderInfo>
-           <DropdownLanguage/>
+            <DropdownLanguage/>
+            <HeaderUser/>
         </Styled.HeaderInfo>
     );
 };

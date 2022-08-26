@@ -10,7 +10,7 @@ const Index = ({children, onTrigger, onSelect, active, ...props}: IProps) => {
         );
     } else {
         return (
-            <Styled.DropdownItem onClick={onSelect ? () => onSelect(children) : undefined}  {...props}>
+            <Styled.DropdownItem onClick={onSelect ? () => onSelect(children) : undefined} active={active} {...props}>
                 {children}
             </Styled.DropdownItem>
         );
@@ -23,6 +23,7 @@ interface IProps {
     onTrigger?: () => void
     onSelect?: (value: string) => void
     active?: boolean
+    animated?: boolean
 }
 
 export default Index;

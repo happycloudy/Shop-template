@@ -8,7 +8,10 @@ const Index = () => {
     const [show, toggleShow] = useToggle(false)
     const [language, setLanguage] = useState('RU')
 
-    const handleSelectLanguage = (value: string) => setLanguage(value)
+    const handleSelectLanguage = (value: string) => {
+        setLanguage(value)
+        toggleShow()
+    }
 
 
     return (
@@ -18,10 +21,10 @@ const Index = () => {
             </DropdownItem>
 
             <DropdownMenu active={show}>
-                <DropdownItem onSelect={handleSelectLanguage}>
+                <DropdownItem animated onSelect={handleSelectLanguage} active={show}>
                     EN
                 </DropdownItem>
-                <DropdownItem onSelect={handleSelectLanguage}>
+                <DropdownItem animated onSelect={handleSelectLanguage} active={show}>
                     RU
                 </DropdownItem>
             </DropdownMenu>

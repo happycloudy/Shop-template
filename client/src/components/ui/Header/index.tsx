@@ -3,12 +3,11 @@ import * as Styled from './styled'
 
 const Index = ({children, ...props}: IProps) => {
     return (
-        <Styled.Header>
+        <Styled.Header {...props}>
             {children}
         </Styled.Header>
     );
 };
-
 
 
 interface IProps {
